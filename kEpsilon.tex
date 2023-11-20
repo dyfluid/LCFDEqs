@@ -1,0 +1,37 @@
+
+\newcommand\kEpsilonEpsEqn
+{
+\frac{\p\alpha \rho \varepsilon}{\p t} +\nabla\cdot \left( \alpha \rho \bfU \varepsilon \right)- \nabla\cdot\left(\alpha \rho D_\varepsilon\nabla   \varepsilon \right) 
+= 
+\\
+\alpha \rho C_1  G \frac{\varepsilon}{k} 
+-  \alpha \rho \left( \frac{2}{3} C_1 - C_{3} \right) (\nabla\cdot \bfU)  \varepsilon 
+- \alpha \rho C_2  \frac{\varepsilon}{k} \varepsilon  + S_\varepsilon 
+}
+
+
+\newcommand\kEpsilonKEqn
+{
+\frac{\p \alpha \rho k}{\p t} + \nabla\cdot \left( \alpha \rho \bfU k \right) - \nabla\cdot \left( \alpha \rho D_k \nabla k \right) 
+=
+\\
+ \alpha \rho G -\alpha \rho\frac{2}{3}  (\nabla\cdot\bfU) k - \alpha \rho \frac{\varepsilon}{k} k  + S_k 
+}
+
+
+\newcommand\kEpsilonVar
+{
+G=\nu_t\left(\nabla\bfU+\nabla\bfU^{T}-\frac{2}{3}(\nabla\cdot\bfU)\bfI\right) : \nabla\bfU,\nu_t = C_{\mu} \frac{k^2}{\varepsilon},D_k=\frac{\nu_t}{\sigma_k}+\nu,D_\varepsilon=\frac{\nu_t}{\sigma_\varepsilon}+\nu 
+}
+
+
+\newcommand\kEpsilonPara
+{
+\sigma_k=1,\sigma_\varepsilon=1.3,C_\mu=0.09,C_1=1.44,C_2=1.92,C_{3}=0
+}
+
+
+\newcommand\kEpsilonDes
+{
+where $\alpha$ is the phase fraction, $\rho$ is the density, $\nu_t$ is the turbulent viscosity, $\bfU$ is the velocity, $D_{\varepsilon}$ and $D_k$ are the diffusion coefficients, $C_\mu,C_1,C_2,C_3,\sigma_k,\sigma_{\varepsilon}$ are the user defined parameters. 
+}
